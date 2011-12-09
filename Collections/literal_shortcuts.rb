@@ -50,3 +50,14 @@ end
 
 puts "correct way of iteration"
 word_list.each { |word| puts word }
+
+puts "key value pair block iteration"
+key_value_pair = { propertyName: 'propertyValue', propertyName2: 'propertyValue2' }
+key_value_pair.each { |key, value| puts "key[#{key}] = #{value}" }
+
+puts "add 2 to everything"
+pp [100, 30, 25, 2].map { |num| num + 2 }
+
+
+
+

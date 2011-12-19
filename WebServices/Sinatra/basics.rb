@@ -18,6 +18,7 @@ get '/people/*' do
 end
 
 get '/form/:format' do
+  @my_name = "winton"
   haml :form if params[:format] === 'haml'
 end
 

@@ -1,0 +1,14 @@
+<people>
+  <person firstname="winton" lastname="deshong">
+    <skills>
+      <lang>xml</lang>
+      <lang>csharp</lang>
+    </skills>
+  </person>
+  <person firstname="larry" lastname="marburger">
+    <skills>
+      <lang>ruby</lang>
+      <lang>lisp</lang>
+    </skills>
+  </person>
+</people>

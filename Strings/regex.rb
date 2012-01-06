@@ -12,6 +12,7 @@ require '../helpers'
 # / /m     option to allow multiline searching of expression
 # \.$      match the end of the string
 # ^        match the beginning of the string
+# ?        matches 0 or 1 of the previous item
 
 full_name = 'Winton DeShong'
 

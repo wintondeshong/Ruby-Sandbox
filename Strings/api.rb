@@ -1,7 +1,5 @@
 require 'pp'
-def start_group (name)
-  puts "\n#{name}\n-----------------------\n"
-end
+require '../helpers'
 
 start_group "chomp"
 puts "some string with a new line \n".chomp

@@ -1,0 +1,10 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    gdata (1.1.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  gdata

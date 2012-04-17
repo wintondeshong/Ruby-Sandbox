@@ -1,0 +1,10 @@
+development: &default
+  adapter: postgresql
+  database: shoulda_development
+  pool: 5
+  timeout: 5000
+
+test: &TEST
+  <<: *default
+  database: shoulda_test
+  min_messages: warning

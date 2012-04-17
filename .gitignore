@@ -1,4 +1,5 @@
 credentials.rb
+.DS_Store
 .rsync_cache/
 .bundle
 db/*.sqlite3
